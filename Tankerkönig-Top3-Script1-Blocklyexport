@@ -1,0 +1,492 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="LKWA;fzpbuo,y1/dZ8B|">Liste</variable>
+    <variable id="|yuFqZ2n62irS5xo$Ll^">p1</variable>
+    <variable id="Q7%1K~JSK6BxJ|UH?hPd">p2</variable>
+    <variable id="EW-riIC,~-V*XY/C,N@G">p3</variable>
+    <variable id="nxMbU+|N*@7KWSFHz|1j">s1</variable>
+    <variable id="cfFn%KF9ZF4pQ|`x|SaY">s2</variable>
+    <variable id="GK9uf2{o@:J_X8id8IlR">s3</variable>
+    <variable id="]p4vlC4)8_N5Z8,b~KcT">i</variable>
+  </variables>
+  <block type="schedule" id="DW@!S~ti=!s%xy3R]ZV`" x="-1112" y="-1287">
+    <field name="SCHEDULE">*/6 * * * *</field>
+    <statement name="STATEMENT">
+      <block type="variables_set" id="J}7rJQI585=FrqA$=@Ql">
+        <field name="VAR" id="LKWA;fzpbuo,y1/dZ8B|">Liste</field>
+        <value name="VALUE">
+          <block type="lists_create_with" id="ehcj1l|]ltjdd)5o?E)P">
+            <mutation items="0"></mutation>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="HiIdm((oZ}H+J@tEgKx4">
+            <field name="VAR" id="|yuFqZ2n62irS5xo$Ll^">p1</field>
+            <value name="VALUE">
+              <block type="math_number" id="/Xn?9u]OH}d|j-@Uds.S">
+                <field name="NUM">99</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="fH[nLmAbg}J5:*[UFtSZ">
+                <field name="VAR" id="Q7%1K~JSK6BxJ|UH?hPd">p2</field>
+                <value name="VALUE">
+                  <block type="math_number" id="?G00XVd|[;smV`UDXk:X">
+                    <field name="NUM">99</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="^H~54WE6H$[!d+c6A}9W">
+                    <field name="VAR" id="EW-riIC,~-V*XY/C,N@G">p3</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="52XdD}xYr;)^coxvRHKr">
+                        <field name="NUM">99</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="EbKSjOn,R]oXKMXJ6)WP">
+                        <field name="VAR" id="nxMbU+|N*@7KWSFHz|1j">s1</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="aC#IyHZrL#q_HLn6DR8:">
+                            <field name="NUM">99</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="gUMf7vlzV9Z)sSSg2WFQ">
+                            <field name="VAR" id="cfFn%KF9ZF4pQ|`x|SaY">s2</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="kaJuuQQ1NnkcBFC=6z0c">
+                                <field name="NUM">99</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="GKz;ni4=NwsHaFo,%I@V">
+                                <field name="VAR" id="GK9uf2{o@:J_X8id8IlR">s3</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id=":vknrKq`:g9e4?/#w56@">
+                                    <field name="NUM">99</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="controls_for" id="uccAQ]RcTFvDuM9%5nCJ">
+                                    <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                    <value name="FROM">
+                                      <shadow type="math_number" id="AX$[.:lob59Qz05npOwk">
+                                        <field name="NUM">0</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="TO">
+                                      <shadow type="math_number" id="%%W=R8xxZ~E_,9AzqSj7">
+                                        <field name="NUM">7</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="BY">
+                                      <shadow type="math_number" id="KkHNs(M0NT2O-Zzv~15a">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                    </value>
+                                    <statement name="DO">
+                                      <block type="controls_if" id="y=Y0jAknK)Wy!f`;Zd]X">
+                                        <value name="IF0">
+                                          <block type="logic_compare" id="i=H^R;]a~.)s6)?DjL=Y">
+                                            <field name="OP">EQ</field>
+                                            <value name="A">
+                                              <block type="get_value_var" id="L?qBfCu$~74K=GC!1HO4">
+                                                <field name="ATTR">val</field>
+                                                <value name="OID">
+                                                  <shadow type="text" id="rJ/r6e0t:XVRo=;7|NHt">
+                                                    <field name="TEXT"></field>
+                                                  </shadow>
+                                                  <block type="text_join" id="RKVchi8z#RM(hDyCa?p%">
+                                                    <mutation items="3"></mutation>
+                                                    <value name="ADD0">
+                                                      <block type="text" id="%I8LSq]L]0?+w9IvcRyW">
+                                                        <field name="TEXT">tankerkoenig.0.stations.</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ADD1">
+                                                      <block type="variables_get" id="yWS=P1aySmb@^P+0,lB5">
+                                                        <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ADD2">
+                                                      <block type="text" id=".C8=4~{A6PpSiTkttPe(">
+                                                        <field name="TEXT">.status</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="text" id="_NB8f6ou!F38G5n|Y}:F">
+                                                <field name="TEXT">open</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <statement name="DO0">
+                                          <block type="controls_if" id="b~^~yn5exG91Chvh:M?E">
+                                            <mutation elseif="2"></mutation>
+                                            <value name="IF0">
+                                              <block type="logic_compare" id="x:C]pR`KYVPo{a45N{xe">
+                                                <field name="OP">LT</field>
+                                                <value name="A">
+                                                  <block type="get_value_var" id="nF(uo^2)?.JV?Vl=M*+N">
+                                                    <field name="ATTR">val</field>
+                                                    <value name="OID">
+                                                      <shadow type="text">
+                                                        <field name="TEXT"></field>
+                                                      </shadow>
+                                                      <block type="text_join" id="@L8Z+-capq:PYd]_7XO^">
+                                                        <mutation items="3"></mutation>
+                                                        <value name="ADD0">
+                                                          <block type="text" id="B[nDGJ.k?=jX[d;Kqt@|">
+                                                            <field name="TEXT">tankerkoenig.0.stations.</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD1">
+                                                          <block type="variables_get" id="tjfJO2`IiVAfoERiKXq{">
+                                                            <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD2">
+                                                          <block type="text" id="SJfIrJtznmJ*@t0Zen0%">
+                                                            <field name="TEXT">.e10.short</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="B">
+                                                  <block type="variables_get" id="TlJOT3kDY)4[U$LXFah1">
+                                                    <field name="VAR" id="|yuFqZ2n62irS5xo$Ll^">p1</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <statement name="DO0">
+                                              <block type="variables_set" id="H4YIv?a78mNk:=oVi%^*">
+                                                <field name="VAR" id="EW-riIC,~-V*XY/C,N@G">p3</field>
+                                                <value name="VALUE">
+                                                  <block type="variables_get" id="_!|rVR0=T7h5t+ir2G+*">
+                                                    <field name="VAR" id="Q7%1K~JSK6BxJ|UH?hPd">p2</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="variables_set" id="6PASxL/~T}aSi3(F)#9$">
+                                                    <field name="VAR" id="GK9uf2{o@:J_X8id8IlR">s3</field>
+                                                    <value name="VALUE">
+                                                      <block type="variables_get" id="Q=!1o-j|v$^t5Auf+@}|">
+                                                        <field name="VAR" id="cfFn%KF9ZF4pQ|`x|SaY">s2</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="variables_set" id="@BC/^*R@/!qGeqas6;VK">
+                                                        <field name="VAR" id="Q7%1K~JSK6BxJ|UH?hPd">p2</field>
+                                                        <value name="VALUE">
+                                                          <block type="variables_get" id="i($MRlX@hR73cQ0PaVN0">
+                                                            <field name="VAR" id="|yuFqZ2n62irS5xo$Ll^">p1</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="variables_set" id="*]]c83,K`L{GcEtvur?X">
+                                                            <field name="VAR" id="cfFn%KF9ZF4pQ|`x|SaY">s2</field>
+                                                            <value name="VALUE">
+                                                              <block type="variables_get" id="@@r%6fRbh~sO(OvP.bl]">
+                                                                <field name="VAR" id="nxMbU+|N*@7KWSFHz|1j">s1</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="variables_set" id="qtVVv8U%K:pO*/TrBUF(">
+                                                                <field name="VAR" id="|yuFqZ2n62irS5xo$Ll^">p1</field>
+                                                                <value name="VALUE">
+                                                                  <block type="get_value_var" id="*%XH_;`%ucZzN_HwC0So">
+                                                                    <field name="ATTR">val</field>
+                                                                    <value name="OID">
+                                                                      <shadow type="text">
+                                                                        <field name="TEXT"></field>
+                                                                      </shadow>
+                                                                      <block type="text_join" id="YnMpz(@OzYY(7B+R`ZqN">
+                                                                        <mutation items="3"></mutation>
+                                                                        <value name="ADD0">
+                                                                          <block type="text" id="lc1M=gWmi^H}F1}.Kc%p">
+                                                                            <field name="TEXT">tankerkoenig.0.stations.</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="ADD1">
+                                                                          <block type="variables_get" id="+(w_c|fz1/rhy~s7cxjH">
+                                                                            <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="ADD2">
+                                                                          <block type="text" id="!grZ_HKcCOXO~y{TpLzu">
+                                                                            <field name="TEXT">.e10.short</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="variables_set" id="G6mN7aTU;IcyLox}6wa*">
+                                                                    <field name="VAR" id="nxMbU+|N*@7KWSFHz|1j">s1</field>
+                                                                    <value name="VALUE">
+                                                                      <block type="variables_get" id="LmK/jlud$@eN[{*}+D=a">
+                                                                        <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                            <value name="IF1">
+                                              <block type="logic_compare" id=",mX)HZ|_#4g*=k@lUkoU">
+                                                <field name="OP">LT</field>
+                                                <value name="A">
+                                                  <block type="get_value_var" id="/W@R(wEl~3$J/}Q.n4UF">
+                                                    <field name="ATTR">val</field>
+                                                    <value name="OID">
+                                                      <shadow type="text">
+                                                        <field name="TEXT"></field>
+                                                      </shadow>
+                                                      <block type="text_join" id="=TW{nWM5ZYIT*BaAa)t4">
+                                                        <mutation items="3"></mutation>
+                                                        <value name="ADD0">
+                                                          <block type="text" id="5g8f~|f(w|yzr--xJrj3">
+                                                            <field name="TEXT">tankerkoenig.0.stations.</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD1">
+                                                          <block type="variables_get" id="B/10U%P=e~K_1G8(d1Zr">
+                                                            <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD2">
+                                                          <block type="text" id="Zv,r,J6cXGH]Z@!I7M?O">
+                                                            <field name="TEXT">.e10.short</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="B">
+                                                  <block type="variables_get" id="n!:Wp7fDr=)-I-x!RfrB">
+                                                    <field name="VAR" id="Q7%1K~JSK6BxJ|UH?hPd">p2</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <statement name="DO1">
+                                              <block type="variables_set" id="8bM#O?qZGZL-faS_C@5b">
+                                                <field name="VAR" id="EW-riIC,~-V*XY/C,N@G">p3</field>
+                                                <value name="VALUE">
+                                                  <block type="variables_get" id="DQ$_zk@TaHC1c!pDJ)8^">
+                                                    <field name="VAR" id="Q7%1K~JSK6BxJ|UH?hPd">p2</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="variables_set" id="[/:c(hA^/T|eZ=d!6FlJ">
+                                                    <field name="VAR" id="GK9uf2{o@:J_X8id8IlR">s3</field>
+                                                    <value name="VALUE">
+                                                      <block type="variables_get" id="0Ue#-R1=-e?@N*|+viPF">
+                                                        <field name="VAR" id="cfFn%KF9ZF4pQ|`x|SaY">s2</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="variables_set" id="D%GR5SS_vN|!MwXNXSln">
+                                                        <field name="VAR" id="Q7%1K~JSK6BxJ|UH?hPd">p2</field>
+                                                        <value name="VALUE">
+                                                          <block type="get_value_var" id="7!}}kJRoQ?AN@n9iS{)*">
+                                                            <field name="ATTR">val</field>
+                                                            <value name="OID">
+                                                              <shadow type="text">
+                                                                <field name="TEXT"></field>
+                                                              </shadow>
+                                                              <block type="text_join" id="CnhPEZT-u01roWL]hND-">
+                                                                <mutation items="3"></mutation>
+                                                                <value name="ADD0">
+                                                                  <block type="text" id="+$R4-4;Z2fA3Su`sv1Ri">
+                                                                    <field name="TEXT">tankerkoenig.0.stations.</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="ADD1">
+                                                                  <block type="variables_get" id="kvNHfr`sp##cTZf$UuqQ">
+                                                                    <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="ADD2">
+                                                                  <block type="text" id="cx%+k1IAMiO{qX8kd*we">
+                                                                    <field name="TEXT">.e10.short</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="variables_set" id="iQOWO].3!N#:wUGK:g3d">
+                                                            <field name="VAR" id="cfFn%KF9ZF4pQ|`x|SaY">s2</field>
+                                                            <value name="VALUE">
+                                                              <block type="variables_get" id="6#SUT)U=]%Z.nq^WvnZ~">
+                                                                <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                            <value name="IF2">
+                                              <block type="logic_compare" id="ok%#4=r[j-Cd;fg;;*8w">
+                                                <field name="OP">LT</field>
+                                                <value name="A">
+                                                  <block type="get_value_var" id="5b?!yhhRFmHI,ugo$qm]">
+                                                    <field name="ATTR">val</field>
+                                                    <value name="OID">
+                                                      <shadow type="text">
+                                                        <field name="TEXT"></field>
+                                                      </shadow>
+                                                      <block type="text_join" id="IBCyZ@3R,9d3c~EVImzQ">
+                                                        <mutation items="3"></mutation>
+                                                        <value name="ADD0">
+                                                          <block type="text" id="E1Z3an[hm!jK*kD)sIym">
+                                                            <field name="TEXT">tankerkoenig.0.stations.</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD1">
+                                                          <block type="variables_get" id=")3y]H,`*#nGQ;JgB,0K~">
+                                                            <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD2">
+                                                          <block type="text" id=".$FjZ8*vX-!S`Asb_6AH">
+                                                            <field name="TEXT">.e10.short</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="B">
+                                                  <block type="variables_get" id="Sd}:laxWX%!C=1Hh[]^J">
+                                                    <field name="VAR" id="EW-riIC,~-V*XY/C,N@G">p3</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <statement name="DO2">
+                                              <block type="variables_set" id="*V1^R6RHmP|Im?Rppg?j">
+                                                <field name="VAR" id="EW-riIC,~-V*XY/C,N@G">p3</field>
+                                                <value name="VALUE">
+                                                  <block type="get_value_var" id="M6gq86FC(%%+{U!s@]*v">
+                                                    <field name="ATTR">val</field>
+                                                    <value name="OID">
+                                                      <shadow type="text">
+                                                        <field name="TEXT"></field>
+                                                      </shadow>
+                                                      <block type="text_join" id="K`QBABCo((A6EQ8LNnIq">
+                                                        <mutation items="3"></mutation>
+                                                        <value name="ADD0">
+                                                          <block type="text" id="T*v`!aIfLsV![)Y:CPVD">
+                                                            <field name="TEXT">tankerkoenig.0.stations.</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD1">
+                                                          <block type="variables_get" id="(NCx]+8@){xM^}9@(e@1">
+                                                            <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD2">
+                                                          <block type="text" id="%m$-3L,0Nh!UCk?]qx*s">
+                                                            <field name="TEXT">.e10.short</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="variables_set" id="1;(i$R2KmI$@w+)kn^6*">
+                                                    <field name="VAR" id="GK9uf2{o@:J_X8id8IlR">s3</field>
+                                                    <value name="VALUE">
+                                                      <block type="variables_get" id="_({dkvJ6-zqQ7Ic%~Sfc">
+                                                        <field name="VAR" id="]p4vlC4)8_N5Z8,b~KcT">i</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                          </block>
+                                        </statement>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="variables_set" id="w^h/9oHvv6K%eX#M93l4">
+                                        <field name="VAR" id="LKWA;fzpbuo,y1/dZ8B|">Liste</field>
+                                        <value name="VALUE">
+                                          <block type="lists_create_with" id="efB_7#tdJyy~B*?U(tFn">
+                                            <mutation items="3"></mutation>
+                                            <value name="ADD0">
+                                              <block type="variables_get" id=":q}Ta;.{(mftYucT46(`">
+                                                <field name="VAR" id="nxMbU+|N*@7KWSFHz|1j">s1</field>
+                                              </block>
+                                            </value>
+                                            <value name="ADD1">
+                                              <block type="variables_get" id="{b`Q(s*FM{4|wcNqdD(`">
+                                                <field name="VAR" id="cfFn%KF9ZF4pQ|`x|SaY">s2</field>
+                                              </block>
+                                            </value>
+                                            <value name="ADD2">
+                                              <block type="variables_get" id="0(THj9;w]UdnP+?tdu=p">
+                                                <field name="VAR" id="GK9uf2{o@:J_X8id8IlR">s3</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="update" id="0;^vxNGS;5ChaXu9q9Ig">
+                                            <mutation xmlns="http://www.w3.org/1999/xhtml" delay_input="false"></mutation>
+                                            <field name="OID">0_userdata.0.Benutzerdaten.Variablen.tanken.Top3_Tankstellen</field>
+                                            <field name="WITH_DELAY">FALSE</field>
+                                            <value name="VALUE">
+                                              <block type="variables_get" id="#J!41Z|6PAaQ^UO2XA|$">
+                                                <field name="VAR" id="LKWA;fzpbuo,y1/dZ8B|">Liste</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
